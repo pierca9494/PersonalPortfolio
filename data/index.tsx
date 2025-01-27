@@ -199,7 +199,7 @@ export const socialMedia = [
   },
 
   {
-    id: 3,
+    id: 2,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/piercarlo-ciraselli/",
   },

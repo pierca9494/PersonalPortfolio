@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -116,7 +116,12 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
+                  <img
+                    src="/profilemock.png"
+                    alt="profile"
+                    width={50}
+                    height={50}
+                  />
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
